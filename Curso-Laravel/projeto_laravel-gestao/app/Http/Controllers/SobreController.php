@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class SobreController extends Controller
 {
     public function sobre() {
-        return view('site/sobre');
+        return view('site/sobre-nos');
     }
     public function sobre_info($nome,int $idade, $sexo = 'Indefinido') {
         echo 'Olá '.$nome .', Sua idade é: ' .$idade .', Você é: ' .$sexo;
